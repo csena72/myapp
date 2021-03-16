@@ -3,68 +3,50 @@
         {
             "id": 1,
             "title": "Producto de prueba 1",
-            "summary": "Ipsum voluptate labore veniam dolore. In incididunt esse aute quis do elit deserunt non aute duis anim.",            
+            "description": "Ipsum voluptate labore veniam dolore. In incididunt esse aute quis do elit deserunt non aute duis anim.",            
             "price": 200,
             "stock": 23,
-            "img": {
-                "name": "placeholder",
-                "url": "https://via.placeholder.com/286x180?text=imagen+no+disponible"
-            }
+            "pictureUrl": "https://via.placeholder.com/286x180?text=imagen+no+disponible"
         },
         {
             "id": 2,
             "title": "Producto de prueba 2",
-            "summary": "Duis exercitation anim minim irure ea. In incididunt esse aute quis do elit deserunt non aute duis anim.",            
+            "description": "Duis exercitation anim minim irure ea. In incididunt esse aute quis do elit deserunt non aute duis anim.",            
             "price": 500,
             "stock": 1,
-            "img": {
-                "name": "placeholder",
-                "url": "https://via.placeholder.com/286x180?text=imagen+no+disponible"
-            }
+            "pictureUrl": "https://via.placeholder.com/286x180?text=imagen+no+disponible"
         },
         {
             "id": 3,
             "title": "Producto de prueba 3",
-            "summary": "Incididunt irure qui deserunt amet ad cillum quis aliqua veniam cillum aliqua esse aliquip.",
+            "description": "Incididunt irure qui deserunt amet ad cillum quis aliqua veniam cillum aliqua esse aliquip.",
             "price": 830,
             "stock": 2,
-            "img": {
-                "name": "placeholder",
-                "url": "https://via.placeholder.com/286x180?text=imagen+no+disponible"
-            }
+            "pictureUrl": "https://via.placeholder.com/286x180?text=imagen+no+disponible"
         },
         {
             "id": 4,
             "title": "Producto de prueba 4",
-            "summary": "Mollit sint nostrud ad excepteur esse. Quis do elit deserunt non aute duis anim.",            
+            "description": "Mollit sint nostrud ad excepteur esse. Quis do elit deserunt non aute duis anim.",            
             "price": 240,
             "stock": 34,
-            "img": {
-                "name": "placeholder",
-                "url": "https://via.placeholder.com/286x180?text=imagen+no+disponible"
-            }
+            "pictureUrl": "https://via.placeholder.com/286x180?text=imagen+no+disponible"
         },
         {
             "id": 5,
             "title": "Producto de prueba 5",
-            "summary": "Ea excepteur cupidatat dolore enim Lorem esse excepteur irure ullamco nulla nisi.",            
+            "description": "Ea excepteur cupidatat dolore enim Lorem esse excepteur irure ullamco nulla nisi.",            
             "price": 250,
             "stock": 1,
-            "img": {
-                "name": "placeholder",
-                "url": "https://via.placeholder.com/286x180?text=imagen+no+disponible"
-            }
+            "pictureUrl": "https://via.placeholder.com/286x180?text=imagen+no+disponible"
         },
         {
             "id": 6,
             "title": "Producto de prueba 6",
-            "summary": "Commodo ut magna irure ullamco aute Lorem voluptate labore amet.",            
+            "description": "Commodo ut magna irure ullamco aute Lorem voluptate labore amet.",            
             "price": 70,
             "stock": 1,
-            "img": {
-                "name": "placeholder",
-                "url": "https://via.placeholder.com/286x180?text=imagen+no+disponible"
-            }
+            "pictureUrl": "https://via.placeholder.com/286x180?text=imagen+no+disponible"            
         }
     ]
 }

@@ -1,19 +1,16 @@
 
 import './App.css';
 import NavBar from "./components/NavBar";
-import  ItemListContainer from "./components/ItemListContainer";
-import { useFetchProducts } from './hooks/useFetchProducts';
+import { ItemListContainer } from "./components/ItemListContainer";
 
 function App() {
 
-  const greeting = 'Ofertas imperdibles!';
+  const greeting = 'Ofertas imperdibles!';  
 
-  const { data:products } = useFetchProducts();
-
-  return (    
+  return (  
       <div className="container-fluid">  
         <NavBar />
-        <ItemListContainer greeting={greeting} items={products}/>        
+        <ItemListContainer greeting={greeting}/>             
       </div>    
   );
 }

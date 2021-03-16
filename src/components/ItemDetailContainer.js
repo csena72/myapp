@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { GetItems } from "../helpers/GetItems";
-import { Item } from "./Item";
+import { ItemDetail } from "./ItemDetail";
 
-export const ItemList = () => {
+export const ItemDetailContainer = () => {
 
     const [state, setState] = useState({
         data: []
@@ -22,13 +22,13 @@ export const ItemList = () => {
     const { data:items } =  state;
 
     return (
-
         <div className="row">
             <h2 className="text-muted">Los más Vendidos</h2>
 
             {items.map((x, index) => (
-                <Item key={index} item={x} />
+                <ItemDetail key={index} item={x} />
             ))}
         </div>
-    );
+    )
 }
+

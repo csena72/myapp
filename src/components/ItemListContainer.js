@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { ItemCount } from "./ItemCount";
-import { ItemList } from "./ItemList";
+import { ItemDetailContainer } from './ItemDetailContainer';
 
-function ItemLisContainer({ greeting, items }) {
+export const ItemListContainer = ({ greeting, items }) => {
 
     const [stockActual, setStockActual] = useState(5);
     
@@ -15,11 +15,9 @@ function ItemLisContainer({ greeting, items }) {
         <>
             <div className="container">
                 <h3 className="text-muted">{greeting}</h3>                
-                <ItemCount stock={stockActual} initial={1} onAdd={restarStock}/>
-                <ItemList items={items} />
+                <ItemCount stock={stockActual} initial={1} onAdd={restarStock}/>                
+                <ItemDetailContainer />
             </div>
         </>
     )
 }
-
-export default ItemLisContainer;
