@@ -10,8 +10,7 @@ export function ItemCount ({ stock, initial, onAdd }) {
     return (     
         <>   
             <form>
-                <div className="d-grid gap-2 col-3 ">
-                    
+                <div className="d-grid gap-2">                    
                     <div className="text-muted">
                         <h4>Stock: {stock} </h4>
                     </div>
@@ -33,7 +32,7 @@ export function ItemCount ({ stock, initial, onAdd }) {
                             onClick={handleAdd}
                         > + </button>
                     </div>
-                    <div className="mt-1 d-grid gap-2">
+                    <div className="mt-1 mb-1 d-grid gap-2">
                         <button
                             type="button"
                             className="btn btn-outline-success btn-sm"

@@ -1,8 +1,12 @@
 import { useEffect, useState } from "react";
+import { useParams } from "react-router";
 import { GetItems } from "../helpers/GetItems";
 import { ItemDetail } from "./ItemDetail";
 
+
 export const ItemDetailContainer = () => {
+
+    const {id} = useParams();
 
     const [state, setState] = useState({
         data: []
@@ -13,22 +17,17 @@ export const ItemDetailContainer = () => {
             GetItems()
                 .then(items => {
                     setState({
-                        data: items
+                        data: items[id-1]
                     })
                 })
-        }, 2000);
-    }, [])
+        }, 1000);
+    })
     
-    const { data:items } =  state;
-
+    const { data:item } = state;
+    
     return (
-        <div className="row">
-            <h2 className="text-muted">Los más Vendidos</h2>
-
-            {items.map((x, index) => (
-                <ItemDetail key={index} item={x} />
-            ))}
+        <div className="row">            
+            <ItemDetail  key={id} item={ item } />  
         </div>
     )
 }
-
